@@ -1,0 +1,162 @@
+#main {
+    overflow-x: hidden;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -5px;
+    margin-bottom: -10px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #253759;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+}
+
+#section2 {
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section3 {
+    align-items: end;
+    justify-content: center;
+}
+
+#boyImg {
+    border-radius: 70px;
+    border: 10px solid #000;
+    margin-right: 25px;
+}
+
+#nameStart {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B0BABF;
+    margin-bottom: -5px;
+}
+
+#name {
+    margin-left: -3px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: #B0BABF;
+}
+
+#scanMe {
+    border-radius: 30px;
+    border: 4px solid #000;
+}
+
+#section4 {
+    display: flex;
+    flex-direction: row;
+}
+
+#section5 {
+    background-color: #B78C38;
+    width: 20%;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 35px;
+}
+
+#desDiv {
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #253759;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#des {
+    color: #B0BABF;
+    font-size: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+#desData {
+    color: #B0BABF;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+#badgeCont {
+    background-color: #C0D9D9;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#badgeText {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#badges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#badge1, #badge2, #badge3, #badge4, #badge5, #badge6, #badge7, #badge8, #badge9, #badge10{ 
+    margin-bottom: 20px;
+}
+
+#section6 {
+    background-color: #C0D9D9;
+    width: 80%;
+}
+
+#proText {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;   
+}
+
+#projects {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#patt4, #patt5 {
+    margin-top: 50px;
+}
